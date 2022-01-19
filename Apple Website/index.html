@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="cointainer mycontainer">
+            <nav class="nav">
+                <ul class="nav-list nav-list-mobile">
+                    <li class="nav-item">
+                        <div class="mobile-menu">
+                            <span class="line line-top"></span>
+                            <span class="line line-bottom"></span>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link nav-link-apple"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-link-bag"></a>
+                    </li>
+                </ul>
+                <!-- /.nav-list nav-list-mobile -->
+                <ul class="nav-list nav-list-larger">
+                    <li class="nav-item nav-item-hidden">
+                        <a href="index.html" class="nav-link nav-link-apple"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Mac</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Ipad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Iphone</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Watch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">TV </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Support </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-link-search"></a>
+                    </li>
+                    <li class="nav-item nav-item-bag">
+                        <a href="#" class="nav-link nav-link-bag"></a>
+                    </li>
+                </ul>
+                <!-- /.nav-list nav-list-larger --> 
+            </nav>
+        </div>
+    </header>
+    <section class="hero-1 iphone-11-pro banner">
+        <div class="blocks"></div>
+        <div class="container-1">
+            <div class="title ">
+                <h2 class="title-heading">iPhone 13 Pro</h2>
+                <h3 class="title-sub-heading">Oh. So. Pro.</h3>
+                <p class="title-price">From $24.95/mo. or $599 with trade-in.*</p>
+            </div>
+            <div class="cta">
+                <a href="#" class="cta-link">Learn more ></a>
+                <a href="#" class="cta-link">Buy ></a>
+            </div>
+            
+        </div>
+    </section>
+    <section class="hero iphone-11">
+        <div class="container">
+            <div class="title title-dark">
+                <h2 class="title-heading">iPhone 13</h2>
+                <h3 class="title-sub-heading">Your new superpower.</h3>
+                <p class="title-price">From $16.62/mo. or $399 with trade-in.*</p>
+            </div>
+            <div class="cta">
+                <a href="#" class="cta-link cta-link-darker">Learn more</a>
+                <a href="#" class="cta-link cta-link-darker">Buy</a>
+            </div>
+        </div>
+    </section>
+    <section class="hero watch">
+        <div class="container">
+            <div class="title title-dark">
+                <h2 class="title-heading-watch"></h2>
+                <h3 class="title-sub-heading">Full screen ahead. <br>
+                You've never seen a watch like this</h3>
+            </div>
+            <div class="cta">
+                <a href="#" class="cta-link cta-link-darker">Learn more</a>
+                <a href="#" class="cta-link cta-link-darker">Buy</a>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script>
+        const banner = document.getElementsByClassName('banner')[0];
+        const blocks = document.getElementsByClassName('blocks');
+
+        for (var i = 1; i<400; i++){
+            banner.innerHTML += "<div class='blocks'></div>";
+            blocks[i].style.animationDelay = `${i * 0.05}s`;
+        }
+    </script>
+</body>
+</html>

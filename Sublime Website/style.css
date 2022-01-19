@@ -1,0 +1,239 @@
+body{
+    font-family: 'raleway';
+}
+header {
+    background-image: url(img/billboard.jpg);
+    height: 100vh;
+    font-weight: 400;
+    
+    color: white;
+}
+
+header::before {
+    background-image: url(img/shadow.png);
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.menu {
+    padding-top: 10px;
+}
+
+h1 {
+    
+    font-weight: 600;
+    font-size: 50px;
+ 
+}
+
+h2 {
+    margin-top: 1.5%;
+   
+   
+}
+
+.border {
+    width: 3vw;
+    border-bottom: 1px solid white;
+    margin-top: 1.5%;
+}
+
+.hero-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35vh;
+
+}
+
+.icone {
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.icone div {
+    width: 300px;
+
+  
+}
+
+.icone div h2 {
+    font-weight: 600;
+
+}
+
+.icone1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 25vh;
+}
+
+.icone1 p {
+    text-align: center;
+}
+
+.video {
+    background-image: url(img/video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+}
+
+.logo-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.img-btn {
+    width: 50px;
+}
+
+.part3 {
+    height: 45vh;
+    text-align: center;
+}
+.testimonials h3{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 50px 0;
+    color: grey;
+}
+.testimonials {
+    margin-bottom: 40px;
+}
+
+.testimonials p {
+    color: lightgrey;
+}
+
+.testimonials-e {
+   width: 60%;
+   display: flex;
+   margin: 0 auto;
+   justify-content: space-around;
+   color: lightgrey;
+}
+
+.testimonials-p {
+    width: 25%;
+}
+
+.txt-user {
+    text-align: justify;
+}
+
+.border-user {
+   border-bottom: 1px solid lightgrey;
+   margin-top: 5%;
+}
+.user {
+    display: flex;
+    margin-top: 10px;
+}
+
+.user img {
+    border-radius: 50%;
+    width: 60px;
+}
+
+.user-name {
+  margin-left: 15px;
+  text-align: justify;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.part4 {
+    height: 45vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.post-recent {
+    margin-bottom: 20px;
+}
+
+.post-recent h4 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 50px 0;
+    color: grey;
+}
+
+.post-recent p {
+    color: lightgrey;
+    font-size: 12px;
+}
+
+.recent {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.post {
+    margin: 0 0.3%;
+    position: relative;
+}
+
+.post a {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+
+.post p { 
+    margin-top: 5px;
+}
+
+.date {
+    position: absolute;
+    top: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+}
+.date span {
+    font-weight: bold;
+}
